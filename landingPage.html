@@ -13,41 +13,41 @@
 </head>
 <body>
     <!-- navBar -->
-    <nav id="nav-container">
+    <nav class="flex align-center nav-foot" id="nav-container">
         <img src="img/colored logo.png" alt="logo">
-        <ul class="nav-links">
+        <ul class="flex" id="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#">About us</a></li>
             <li><a href="#">Contact us</a></li>
         </ul>
     </nav>
     <!-- header -->
-    <header>
-        <div id="header-div">
+    <header class="flex align-center">
+        <div class="flex-col" id="header-div">
             <h2>One more for good measure.</h2>
             <p>
                 Some representative placeholder content for the third slide of this carousel.
             </p>
-            <button>More</button>
+            <button class="btn">More</button>
         </div>
         <img src="img/Development.png" id="header-img">
     </header>  
     <h2 id="h2-2">Our Professional Services</h2>
     <!-- Cards -->
-    <div id="card-div">
-        <div class="card">
+    <div class="flex" id="card-div">
+        <div class="flex-col align-center card">
             <div class="card-img">
                 <img src="img/UX.png">
             </div>
             <p>UX/UI</p>
         </div>
-        <div class="card">
+        <div class="flex-col align-center card">
             <div class="card-img">
                 <img src="img/design.png" alt="">
             </div>
             <p>Front End</p>
         </div>
-        <div class="card">
+        <div class="flex-col align-center card">
             <div class="card-img">
                 <img src="img/support.png" alt="">
             </div>
@@ -56,7 +56,7 @@
     </div>
     <!-- main -->
     <div>
-        <div class="main-div">
+        <div class="flex main-div">
             <img src="img/4.png" alt="">
             <div>
                 <h3>Get Started with our software</h3>
@@ -69,7 +69,7 @@
                 </ul>
             </div>
         </div>
-        <div class="main-div" id="flex-rev">
+        <div class="flex main-div" id="flex-rev">
             <img src="img/1.png" alt="">
             <div>
                 <h3>Get Started with our software</h3>
@@ -82,7 +82,7 @@
                 </ul>
             </div>
         </div>      
-        <div class="main-div">
+        <div class="flex main-div">
             <img src="img/2.png" alt="">
             <div>
                 <h3>Get Started with our software</h3>
@@ -97,29 +97,30 @@
         </div>
     </div>
     <!-- contact us form -->
-    <div id="form-div">
+    <div class="flex" id="form-div">
         <h2>Get in touch with us</h2>
-        <form action="#" id="contact-id">
+        <form action="#" class="flex-col" id="contact-id">
             <p>We will reply to you as soon as possible.</p>
-            <div id="form-row">
+            <div class="flex" id="form-row">
                 <label for="fullname">
-                    <input type="text" placeholder="Full Name" id="fullname">
+                    <input class="input-text-form" type="text" placeholder="Full Name" id="fullname">
                 </label> <label for="city">
-                    <input type="text" placeholder="City" id="city">
+                    <input class="input-text-form" type="text" placeholder="City" id="city">
                 </label>
             </div>
             <label>
-                <input type="email" placeholder="Work Email">
+                <input class="input-text-form" type="email" placeholder="Work Email">
             </label> 
             <label>
-                <input type="text" placeholder="Subject">
+                <input class="input-text-form" type="text" placeholder="Subject">
             </label>
-            <label><textarea placeholder="Message"></textarea></label>
-            <button type="submit">Submit</button>
+            <label><textarea class="input-text-form" placeholder="Message"></textarea></label>
+            <button class="btn" type="submit">Submit</button>
         </form>
     </div>
+    <!-- footer -->
     <footer>
-        <div id="footer-div">
+        <div class="flex nav-foot" id="footer-div">
             <img src="img/center colored logo.png" alt="">
             <ul> Websites Pages:
                 <li><a href="#">HOME</a></li>
